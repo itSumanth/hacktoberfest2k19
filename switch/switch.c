@@ -26,6 +26,7 @@ int main()
         case 2:{
             int res;
             res=decr(num);
+            --res;//Added a statement "--res;"
             printf("the decremented number is %d\n",res);
             break;
             
